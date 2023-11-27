@@ -1,0 +1,40 @@
+:root {
+  --theme-color: #182f32;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /* outline: 2px solid red; */
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: #10ad5c;
+  font-family: var(--font-roboto);
+  overflow-x: hidden;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* Google */
+
+.googleImage {
+  width: 100vw;
+  height: auto;
+}
