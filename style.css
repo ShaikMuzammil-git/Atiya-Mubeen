@@ -16,11 +16,11 @@
 }
 
 body {
-  height: 100vh;
+  height: auto;
   width: 100vw;
-  background: #10ad5c;
   font-family: var(--font-roboto);
   overflow-x: hidden;
+  position: absolute;
 }
 html {
   box-sizing: border-box;
@@ -37,4 +37,13 @@ h1 {
 .googleImage {
   width: 100vw;
   height: auto;
+}
+
+.inputTxt {
+  background-color: white;
+  position: relative;
+  top: -111vw;
+  left: 10vw;
+  width: 68vw;
+  height: 8vw;
 }
